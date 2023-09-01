@@ -1,0 +1,58 @@
+img{
+    width: inherit;
+    height: inherit;
+}
+.bg-div{
+    width: 80%;
+    height:  100vh;
+}
+.bg-video{
+    position: absolute;
+    z-index: -1;
+    width: inherit;
+    height: inherit;
+}
+.layer{
+    position: absolute;
+    z-index: 1;
+    background-color: black;
+    top: 0px;
+    width: 80%;
+    height: 100vh;
+    opacity: .6;
+}
+.content{
+    width: 80%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content h2{
+    color: white;
+}
+.cover{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35rem;
+    right: 63rem;
+}
+.inner button{
+    width: 5rem;
+    height: 2rem;
+    background-color: grey;
+    border: none;
+    border-radius: 10px;
+    margin: .3rem;
+}
